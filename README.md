@@ -1,10 +1,10 @@
 ### 魔方财务系统使用方法
-1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](./ext/php7.2/idcsmart.so)、[php7.3](./ext/php7.3/idcsmart.so)、[php7.4](./ext/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxx 文件夹里面。
+1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxx 文件夹里面。
 
 2. 修改php配置文件（php.ini），加入以下内容，然后重启php进程。
 
    ```
-   extension=zip.so
+   extension=idcsmart.so
    ```
 
 3. 使用官方安装包进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。
