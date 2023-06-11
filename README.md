@@ -7,11 +7,11 @@
    extension=idcsmart.so
    ```
 
-3. 使用官方安装包进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。
+3. 使用[官方安装包](https://anonfiles.com/I5i1lbw3za/zjmfmangerbetaV3_5_4_zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
 
 4. 安装完之后默认就是专业版，所有专业版的功能均可使用。
 
-5. 如果上传了第三方付费插件或模板，使用过程中提示插件未购买，需要在php配置文件（php.ini）加入idcsmart.app这个配置项，配置第三方插件标识，多个插件标识用英文逗号隔开。
+5. 如果上传了第三方付费插件或模板，使用过程中提示插件未购买，需要在php配置文件（php.ini）加入idcsmart.app这个配置项，配置第三方插件标识，多个插件标识用英文逗号隔开，例如：
 
    ```
    idcsmart.app=AliPayDmf,Smsbao,Subemail
