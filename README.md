@@ -57,7 +57,7 @@
 
 这部分是可选的，如果内置授权接口出现连接不稳定等情况，可以选择自建。
 
-1. 新建一个网站，上传[授权接口源码](https://raw.githubusercontent.com/aazooo/zjmf/main/idcsmart_auth_api.zip)，并配置好伪静态。
+1. 新建一个网站，上传[授权接口源码](https://raw.githubusercontent.com/aazooo/zjmf/main/zjmf_auth_api.zip)，并配置好伪静态。
 
 2. 在php配置文件（php.ini）加入idcsmart.url这个配置项，填写授权接口地址，例如：
 
