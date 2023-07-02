@@ -21,7 +21,7 @@
 
 ### 魔方云系统使用方法
 
-1. 使用以下命令安装魔方云系统：
+1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
    ```shell
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
