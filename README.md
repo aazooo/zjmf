@@ -44,7 +44,7 @@
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.2/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
@@ -56,7 +56,7 @@
    wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.2/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
