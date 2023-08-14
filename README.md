@@ -75,3 +75,8 @@
 
    注意一定要以/结尾。然后重启php进程生效。
 
+### 魔方云HyperV使用方法
+
+1. 需自建授权接口站点，绑定license7.idcsmart.com域名，并开启SSL（随便一个域名证书即可）
+2. 在Windows系统内配置hosts，将license7.idcsmart.com域名指向刚才的服务器IP
+3. 使用官方安装程序安装，填写授权码的时候，随便填写一个的32位大写的MD5字符串。
