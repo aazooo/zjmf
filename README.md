@@ -7,7 +7,7 @@
    extension=idcsmart.so
    ```
 
-3. 使用[官方安装包](https://anonfiles.com/I5i1lbw3za/zjmfmangerbetaV3_5_4_zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
+3. 使用[官方安装包](https://github.com/aazooo/zjmf-manger-decoded)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
 
 4. 安装完之后默认就是专业版，所有专业版的功能均可使用。
 
