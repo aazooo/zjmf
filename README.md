@@ -79,4 +79,4 @@
 
 1. 需自建授权接口站点，绑定license7.idcsmart.com域名，并开启SSL（随便一个域名证书即可）
 2. 在Windows系统内配置hosts，将license7.idcsmart.com域名指向刚才的服务器IP
-3. 使用官方安装程序安装，填写授权码的时候，随便填写一个的32位大写的MD5字符串。
+3. 使用[官方安装程序](https://raw.githubusercontent.com/aazooo/zjmf/main/hv_install.zip)安装，填写授权码的时候，随便填写一个的32位大写的MD5字符串。
