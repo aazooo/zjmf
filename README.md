@@ -1,5 +1,8 @@
 ### 魔方财务系统使用方法
-1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
+
+*魔方财务系统支持版本：**<=3.6.0***
+
+1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
 
 2. 修改php配置文件（php.ini），加入以下内容，然后重启php进程。
 
@@ -7,7 +10,7 @@
    extension=idcsmart.so
    ```
 
-3. 使用[官方安装包](https://github.com/aazooo/zjmf-manger-decoded)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
+3. 使用[官方安装包](https://license.soft13.idcsmart.com/upgrade/beta/3.6.0.zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
 
 4. 安装完之后默认就是专业版，所有专业版的功能均可使用。
 
@@ -21,6 +24,8 @@
 
 ### 魔方云系统使用方法
 
+*魔方云系统支持版本：**3.7.6***
+
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
    ```shell
@@ -30,7 +35,7 @@
    国内服务器可以用以下命令：
 
    ```shell
-   wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   wget https://raw.fgit.cf/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
    ```
 
    以上命令是access模式安装脚本，如果要Trunk模式，是在最后加 -t，轻量版是在最后加 -l
@@ -44,7 +49,7 @@
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.6/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
@@ -53,10 +58,10 @@
    
    ```
    echo -n "echo \"success\"" > /home/zjmf/dashboard/www/extend/other/extension
-   wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
+   wget https://raw.fgit.cf/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://raw.fgit.cf/aazooo/zjmf/main/ext/cloud/3.7.6/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
