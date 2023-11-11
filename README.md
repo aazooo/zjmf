@@ -10,7 +10,8 @@
    extension=idcsmart.so
    ```
 
-3. 使用[官方安装包](https://license.soft13.idcsmart.com/upgrade/beta/3.6.0.zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
+3. 使用[官方安装包](https://raw.githubusercontent.com/aazooo/zjmf/main/zjmfmangerbetaV3.6.0.zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前安装过的可以跳过此步骤）
+   该官方安装包已经集成部分常用插件，无需再去商店购买。
 
 4. 安装完之后默认就是专业版，所有专业版的功能均可使用。
 
@@ -65,6 +66,8 @@
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
+
+后续每次更新都要重新执行上述命令。
 
 ### 自建授权接口站点（可选）
 
