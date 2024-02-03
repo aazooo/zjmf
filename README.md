@@ -36,7 +36,7 @@
    国内服务器可以用以下命令：
 
    ```shell
-   wget https://raw.fgit.cf/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
    ```
 
    以上命令是access模式安装脚本，如果要Trunk模式，是在最后加 -t，轻量版是在最后加 -l
@@ -59,10 +59,10 @@
    
    ```
    echo -n "echo \"success\"" > /home/zjmf/dashboard/www/extend/other/extension
-   wget https://raw.fgit.cf/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
+   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://raw.fgit.cf/aazooo/zjmf/main/ext/cloud/3.7.6/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.6/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
