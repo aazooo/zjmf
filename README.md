@@ -1,6 +1,6 @@
 ### 魔方财务系统使用方法
 
-*魔方财务系统支持版本：**<=3.6.5**
+*魔方财务系统支持版本：**<=3.6.5***
 
 1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
 
@@ -25,7 +25,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.7.16***
+*魔方云系统支持版本：**3.7.18***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
