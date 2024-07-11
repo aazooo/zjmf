@@ -1,3 +1,18 @@
+### 魔方业务系统V10使用方法
+
+1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
+
+2. 修改php配置文件（php.ini），加入以下内容，然后重启php进程。
+
+   ```
+   extension=idcsmart.so
+   ```
+
+3. 后台系统设置->系统信息，随便填写一个授权码即可授权成功。
+
+4. 在[此页面](https://github.com/aazooo/ZJMF-CBAP-plugins)下载应用并安装。
+
+
 ### 魔方财务系统使用方法
 
 *魔方财务系统支持版本：**<=3.6.5***
