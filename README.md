@@ -40,7 +40,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.7.21***
+*魔方云系统支持版本：**3.8.1***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
@@ -52,6 +52,12 @@
 
    ```shell
    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   ```
+
+   TencentOS Server3.1安装命令：
+
+   ```
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new_TencentOS -O install-zjmf-cloud_new_TencentOS && chmod +x install-zjmf-cloud_new_TencentOS && ./install-zjmf-cloud_new_TencentOS
    ```
 
    以上命令是access模式安装脚本，如果要Trunk模式，是在最后加 -t，轻量版是在最后加 -l
@@ -66,7 +72,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
-   echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
+   echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
    
@@ -78,7 +84,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
-   echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
+   echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
    systemctl restart php-fpm
    ```
 
