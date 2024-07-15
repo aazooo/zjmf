@@ -15,7 +15,7 @@
 
 ### 魔方财务系统使用方法
 
-*魔方财务系统支持版本：**<=3.6.5***
+*魔方财务系统支持版本：**<=3.6.6***
 
 1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/bingfenghd/zjmf/main/ext/finance/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/bingfenghd/zjmf/main/ext/finance/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/bingfenghd/zjmf/main/ext/finance/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
 
@@ -40,7 +40,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.7.21***
+*魔方云系统支持版本：**3.8.1***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
@@ -52,6 +52,12 @@
 
    ```shell
    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/bingfenghd/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   ```
+
+   TencentOS Server3.1安装命令：
+
+   ```
+   wget https://raw.githubusercontent.com/aazooo/bingfenghd/main/install-zjmf-cloud_new_TencentOS -O install-zjmf-cloud_new_TencentOS && chmod +x install-zjmf-cloud_new_TencentOS && ./install-zjmf-cloud_new_TencentOS
    ```
 
    以上命令是access模式安装脚本，如果要Trunk模式，是在最后加 -t，轻量版是在最后加 -l
