@@ -73,6 +73,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/Response.php -O /home/zjmf/dashboard/www/vendor/topthink/framework/src/think/Response.php
    systemctl restart php-fpm
    ```
    
@@ -85,6 +86,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
+   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/Response.php -O /home/zjmf/dashboard/www/vendor/topthink/framework/src/think/Response.php
    systemctl restart php-fpm
    ```
 
