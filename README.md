@@ -40,7 +40,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.8.2***
+*魔方云系统支持版本：**3.8.6***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
@@ -73,7 +73,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
-   wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/Response.php -O /home/zjmf/dashboard/www/vendor/topthink/framework/src/think/Response.php
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
    systemctl restart php-fpm
    ```
    
@@ -86,7 +86,7 @@
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.7.16/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
-   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/Response.php -O /home/zjmf/dashboard/www/vendor/topthink/framework/src/think/Response.php
+   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
    systemctl restart php-fpm
    ```
 
