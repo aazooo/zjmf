@@ -7,7 +7,7 @@
    ```
    extension=idcsmart.so
    ```
-
+ 
 3. 后台系统设置->系统信息，随便填写一个授权码即可授权成功。
 
 4. 在[此页面](https://github.com/aazooo/ZJMF-CBAP-plugins)下载应用并安装。
