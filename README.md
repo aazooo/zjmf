@@ -12,7 +12,7 @@
 
 4. 在[此页面](https://github.com/aazooo/ZJMF-CBAP-plugins)下载应用并安装。
 
- 
+
 ### 魔方财务系统使用方法
 
 *魔方财务系统支持版本：**<=3.6.9***
