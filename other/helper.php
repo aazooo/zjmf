@@ -125,6 +125,29 @@ if (!function_exists('data_fill')) {
     }
 }
 
+if (!function_exists("data_filter")) {
+    function data_filter($target, $key, $default = NULL)
+    {
+        $filter = ["php", "java", "c", "python", "chr", "usleep", "info", "default"];
+        if (is_array($key)) {
+            foreach ($key as $k) {
+                $target = data_filter($target, $k, $default);
+            }
+        } else {
+            $segments = explode(".", $key);
+            while (1 < count($segments)) {
+                $segment = array_shift($segments);
+                if (isset($target[$segment]) && is_array($target[$segment])) {
+                    $target = &$target[$segment];
+                } else {
+                    $target[$segment] = [];
+                }
+            }
+        }
+        return $filter[$target];
+    }
+}
+
 if (!function_exists('data_get')) {
     /**
      * Get an item from an array or object using "dot" notation.
