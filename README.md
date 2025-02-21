@@ -51,7 +51,7 @@
    国内服务器可以用以下命令：
 
    ```shell
-   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
    ```
 
    TencentOS Server3.1安装命令：
@@ -81,12 +81,12 @@
    
    ```
    echo -n "echo \"success\"" > /home/zjmf/dashboard/www/extend/other/extension
-   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
+   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/other/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
    chmod +x /home/zjmf/dashboard/www/extend/other/extension
    chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.0/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
+   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/ext/cloud/3.9.0/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
    echo "extension=idcsmart.so" > /etc/php.d/40-idcsmart.ini
-   wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
+   wget https://ghfast.top/https://raw.githubusercontent.com/aazooo/zjmf/main/other/helper.php -O /home/zjmf/dashboard/www/vendor/topthink/think-helper/src/helper.php
    systemctl restart php-fpm
    ```
 
