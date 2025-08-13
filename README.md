@@ -15,7 +15,7 @@
 
 ### 魔方财务系统使用方法
 
-*魔方财务系统支持版本：**<=3.7.4***
+*魔方财务系统支持版本：**<=3.7.5***
 
 1. 首先需要安装php扩展。根据网站要使用的php版本，下载扩展文件（[php7.2](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.2/idcsmart.so)、[php7.3](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.3/idcsmart.so)、[php7.4](https://raw.githubusercontent.com/aazooo/zjmf/main/ext/finance/php7.4/idcsmart.so)），上传到php安装目录 /lib/php/extensions/no-debug-non-zts-xxxx（xxxx为一串数字）文件夹里面。
 
@@ -25,7 +25,7 @@
    extension=idcsmart.so
    ```
 
-3. 使用[官方安装包](https://raw.githubusercontent.com/aazooo/zjmf/main/zjmfmangerbetaV3.7.4.zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前用过官方安装包的，还需要解压此安装包单独覆盖vendor目录）
+3. 使用[官方安装包](https://raw.githubusercontent.com/aazooo/zjmf/main/zjmfmangerbetaV3.7.5.zip)进行安装。填写授权码的时候，随便填写一个的32位大写的MD5字符串，例如可以[在这里生成](https://md5jiami.bmcx.com/)。（之前用过官方安装包的，还需要解压此安装包单独覆盖vendor目录）
    该官方安装包已经集成部分常用插件，无需再去商店购买。
 
 4. 安装完之后默认就是专业版，所有专业版的功能均可使用。
@@ -40,7 +40,7 @@
 
 ### 魔方云系统使用方法
 
-*魔方云系统支持版本：**3.9.8***
+*魔方云系统支持版本：**3.9.14***
 
 1. 使用以下命令安装魔方云系统（之前已经安装过免费版的，直接跳到第3步）：
 
