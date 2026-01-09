@@ -60,6 +60,18 @@
    wget https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new_TencentOS -O install-zjmf-cloud_new_TencentOS && chmod +x install-zjmf-cloud_new_TencentOS && ./install-zjmf-cloud_new_TencentOS
    ```
 
+   Rocky-linux-8.10安装命令：
+
+   ```
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_R8 -O install-zjmf-cloud_R8 && chmod +x install-zjmf-cloud_R8 && ./install-zjmf-cloud_R8
+   ```
+
+   HK区域安装命令：
+
+   ```
+   wget https://raw.githubusercontent.com/aazooo/zjmf/main/install-zjmf-cloud_new_hk -O install-zjmf-cloud_new && chmod +x install-zjmf-cloud_new && ./install-zjmf-cloud_new
+   ```
+
    以上命令是access模式安装脚本，如果要Trunk模式，是在最后加 -t，轻量版是在最后加 -l
 
 2. 填写授权码的时候，随便填写一个的32位大写的MD5字符串。
